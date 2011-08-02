@@ -1,0 +1,7 @@
+#header, #mainnav, #mainnavwrap, #mainnav ul, #middle, #subnav, #content, #footer {
+  zoom: 1;
+}
+
+#subnav li, #subnav li a, #subnav li span {
+  zoom: 1;
+}

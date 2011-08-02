@@ -1,0 +1,337 @@
+* {
+	font-family: arial, verdana, helvetica, sans-serif;
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.clear:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.clear { 
+  display: inline-table;
+}
+
+/* Hides from IE-mac \*/
+* html .clear {
+  height: 1%;
+}
+
+.clear {
+  display: block;
+}
+/* End hide from IE-mac */
+
+html, body {
+	background: #cadfee url('../images/bg.gif') left top repeat-x;
+	color: #333;
+}
+
+body {
+	font-size: 75%;
+	text-align: center;
+}
+
+a {
+	text-decoration: underline;
+}
+
+a, :focus {
+	outline: 0;
+}
+
+a {
+	color: #0067c1;
+}
+
+a:hover, a:focus {
+	text-decoration: none;
+}
+
+h1 {
+	font-size: 200%;
+	font-weight: normal;
+}
+
+h2 {
+	font-size: 100%;
+	font-weight: normal;
+}
+
+ul {
+	list-style: none;
+}
+
+form p {
+	padding: .4em 0 !important;
+}
+
+a, a *, button, button * {
+	cursor: pointer;
+}
+
+textarea {
+	overflow: auto;
+}
+
+button {
+  background: #0067c1 url('../images/mainnav_act_bg.gif') left top repeat-x;
+	border: 0;
+	color: #fff;
+	font-weight: bold;
+	padding: .4em 1.4em .5em;
+	text-align: center;
+}
+
+code, pre {
+	background: #262626;
+	border-left: 5px solid #363636;
+	color: #fff;
+	display: block;
+	font-family: monospace;
+	font-size: 120%;
+	line-height: 180%;
+	padding: 15px 15px 0 15px;
+	width: 505px;
+	zoom: 1;
+	height: 1%;
+}
+
+blockquote {	
+	background: transparent url('../images/quotebg.gif') left 10px no-repeat;
+	color: #888;
+	display: block;
+	font-style: italic;
+	line-height: 180%;	
+	padding: 20px;
+	text-indent: 3em;
+}
+
+.ri {
+	text-align: right;
+}
+
+#siteholder {
+  background: #fff;
+	padding: 10px;
+	margin: 0 auto;
+	text-align: left;
+	width: 880px;
+}
+
+#logo {
+  display: block;
+  padding: 20px 10px;
+}
+
+#logo h1, #logo h1 a {
+	color: #333;
+	text-decoration: none;
+}
+
+
+#content {	
+  float: right;
+	width: 550px;
+	padding: 10px 50px 10px 40px;
+}
+
+#subnav {
+  float: left;
+  padding: 10px 0;
+	width: 240px;
+}
+
+#mainnav {
+  background: #e2edf6 url('../images/mainnav_bg.gif') left top repeat-x;
+  font-weight: bold;
+	padding: 10px 10px;
+	text-transform: uppercase;
+}
+
+#mainnavwrap {
+  overflow: hidden;
+}
+
+#mainnav ul {
+  margin-left: -2px;
+}
+
+#mainnav li, #mainnav li a, #mainnav li span {
+  display: block;
+  float: left;
+}
+
+#mainnav li {
+  margin-left: 2px;
+}
+
+#mainnav li a, #mainnav li span {
+  padding: 9px 30px;
+}
+
+#mainnav a, #mainnav a * {
+	color: #333 !important;
+	text-decoration: none;	
+}
+
+#mainnav a:hover, #mainnav a:hover *, #mainnav a:focus, #mainnav a:focus * {
+  background: #abcdeb url('../images/mainnav_over_bg.gif') left top repeat-x;
+}
+
+#mainnav .act, #mainnav .act * {
+  background: #0067c1 url('../images/mainnav_act_bg.gif') left top repeat-x;
+  color: #fff;
+}
+
+#middle {
+  padding: 20px 0 50px;
+}
+
+#middle h2 {
+	font-size: 220%;
+	padding-bottom: 1em;
+}
+
+#middle h3, #middle h4 {
+	font-size: 110%;
+	padding: 2em 0 .5em;
+}
+
+#middle h3 {
+	margin-top: 2em;
+	padding-top: 2em;
+}
+
+#middle h4 {
+	font-size: 100%;
+}
+
+#middle p {
+	font-size: 110%;
+	line-height: 160%;
+	padding-bottom: 2em;
+}
+
+#middle .teaser {
+	color: #888;
+	font-size: 130%;
+	line-height: 170%;
+	padding-bottom: 1em;
+}
+
+#content ul li {
+	background: transparent url('../images/li_bullet1.gif') left .5em no-repeat;
+	display: block;
+	padding: .4em 0 .4em 18px;
+}
+
+#content ul li ul {
+	margin: .5em 0 0;
+}
+
+#content ul li li {
+	background: transparent url('../images/li_bullet2.gif') left .7em no-repeat;
+	font-size: 95%;
+	padding: .4em 0 .4em 15px;
+}
+
+#middle table {
+	border: 0;
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+}
+
+#middle table th, 
+#middle table td {
+	padding: .7em .5em;
+}
+
+#middle table thead th {
+  background: #e2edf6 url('../images/mainnav_bg.gif') left top repeat-x;
+}
+
+#middle table tbody .odd td {
+	background: #f2f2f2;
+}
+
+#middle .in {
+	background: #e9f0f5;
+	border: 1px solid #d0e0ed;
+	border-right: 0 none;
+	border-bottom: 0 none;
+}
+
+#content label {
+	font-size: 90%;
+	font-weight: bold;
+}
+
+#content input,
+#content textarea {	
+	padding: 5px;
+	width: 530px;
+}
+
+#middle img {
+	border: 1px solid #eee;
+	display: block;
+	padding: 4px;
+}
+
+.img-left {
+	float: left;
+	margin: .3em 20px 10px 0;
+}
+
+.img-right {
+	float: right;
+	margin: .3em 0 10px 20px;
+}
+
+#subnav ul li {
+	background: transparent url('../images/dotted.gif') left bottom repeat-x;
+	display: block;
+	padding: 0;
+}
+
+#subnav ul li a,
+#subnav ul li span {
+	display: block;	
+	color: #333;
+	padding: .8em 10px;
+	text-decoration: none;
+}
+
+#subnav ul li a:hover, #subnav ul li a:focus {
+  color: #0067c1;
+}
+
+#subnav ul .act span {
+  color: #0067c1;
+  font-weight: bold;
+  padding-left: 25px;
+}
+
+#footer {
+  background: #f2f2f2;
+	display: block;
+	padding: 20px 0 40px;
+	text-align: center;
+}
+
+#footer p {
+	font-size: 90%;
+	padding: 0 0 5px 0;
+}
+
+#footer, #footer * {
+	color: #aaa;
+	text-decoration: none;
+}
